@@ -1,0 +1,371 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=1;
+	while(a<=100)
+	{
+	cout<<a;
+	a++;
+    }
+	return 0;
+}
+____________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=100;
+	while(a>=1)
+	{
+		cout<<a;
+		a--;
+	}
+	return 0;
+}
+_______________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=1;
+	while(a<=100)
+	{
+		if(a%2==0)
+		{
+			cout<<a;
+		}
+		a++;
+	}
+	return 0;
+}
+______________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=100;
+	while(a>=1)
+	{
+		if(a%2==0)
+		{
+			cout<<a;
+		}
+		a--;
+	}
+	return 0;
+}
+_________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=1;
+	while(a<=100)
+	{
+		if(a%2!=0)
+		{
+			cout<<a;
+		}
+		a++;
+	}
+	return 0;
+}
+____________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=100;
+	while(a>=1)
+	{
+		if(a%2!=0)
+		{
+			cout<<a;
+		}
+		a--;
+	}
+	return 0;
+}
+_______________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=50;
+	while(a<=500)
+	{
+		cout<<a;
+		a++;
+	}
+	return 0;
+}
+______________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=500;
+	while(a>=50)
+	{
+		cout<<a;
+		a--;
+	}
+	return 0;
+}
+__________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=50;
+	while(a<=1000)
+	{
+		if(a%2==0)
+		{
+			cout<<  a;
+		}
+	    	a++;
+	}
+	return 0;
+}
+___________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b;
+	cin>>a>>b;
+	while(a<b)
+	{
+		cout<<a;
+		a++;
+	}
+	return 0;
+}
+________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b;
+	cin>>a>>b;
+	while(a<b)
+	{
+		if(a%2==0)
+		{
+		cout<<a;	
+		}
+		a++;
+	}
+	return 0;
+}
+_____________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b;
+	cin>>a>>b;
+	while(a<b)
+	{
+		if(a%2!=0)
+		{
+		cout<<a;	
+		}
+		a++;
+	}
+	return 0;
+}
+_____________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x=1,y=0;
+	while(x<=10)
+	{
+		y=x+y; 
+		x++;
+	}
+	cout<<y;
+	return 0;
+}
+_______________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=2;
+	while(a<=20)
+	{
+		if(a%2==0)
+		{
+			cout<<a;
+		}
+		a++;
+	}
+	return 0;
+}
+__________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=1;
+	int x;
+	cout<<"enter x";
+	cin>>x;
+	int n;
+	cout<<"enter n";
+	cin>>n;
+	while(a<=n)
+	{
+		if(a%x==0)
+		{
+			cout<<a;
+		}
+		a++;
+	}
+	return 0;
+}
+_____________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=1;
+	while(a<=100)
+	{
+		if(a%7==0&&a%3==0)
+		{
+			cout<<a;
+		}
+		a++;
+	}
+	return 0;
+}
+_________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=1;
+	while(a<=100)
+	{
+		if(a%5==0&&a%11==0)
+		{
+			cout<<a;
+		}
+		a++;
+	}
+	return 0;
+}
+___________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=100;
+	while(a>=1)
+	{
+		if(a%5==0&&a%11==0)
+		{
+			cout<<a;
+		}
+		a--;
+	}
+	return 0;
+}
+_______________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=20;
+	while(a>=2)
+	{
+		cout<<a;
+		a-=2;
+	}
+	return 0;
+}
+_________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=100;
+		int m;
+    	cout<<"enter m";
+    	cin>>m;
+    	int n;
+    	cout<<"enter n";
+    	cin>>n;
+	while(a>=1)
+    
+    
+		{
+	     	if(a%m==0&&a%n==0)
+	        	{
+	        		cout<<a;
+	        	}
+	        	a--;
+       	}
+   
+	return 0;
+}
+______________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=1;
+	int x=2;
+	while(a<=10)
+	{
+		cout<<x<<"X"<<a<<"="<<a*x<<endl;
+		a++;
+	}
+	
+	return 0;
+}
+_______________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=1;
+	int x;
+	cout<<"enter x";
+	cin>>x;
+	int n;
+	cout<<"enter n";
+	cin>>n;
+	while(a<=n)
+	{
+		cout<<x<<"X"<<a<<"="<<a*x<<endl;
+		a++;
+	}
+	
+	return 0;
+}
+___________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x=1;
+	while(x<=10)
+	{
+		int y=2;
+		while(y<=9)
+		{
+			cout<<x*y;
+			y++;
+		}
+		cout<<endl;
+		x++;
+	}
+	return 0;
+}
