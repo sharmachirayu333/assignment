@@ -1,0 +1,391 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=56,b=7;
+	int x=a+b;
+	cout<<x;
+	return 0;
+}
+_______________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=56,b=7;
+	int x=a-b;
+	cout<<x;
+	return 0;
+}
+________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=56,b=7;
+	int c=a*b;
+	cout<<c;
+	return 0;
+}
+_________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=56,b=7;
+	int z=a/b;
+	cout<<z;
+	return 0;
+}
+_________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=56,v=7;
+	int s=a%v;
+	cout<<s;
+	return 0;
+}
+___________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"enter a";
+	cin>>a;
+	int square=a*a;
+	cout<<square;
+	return 0; 
+}
+___________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b;
+	cout<<"enter a"<<endl;
+	cin>>a;
+	cout<<"enter b";
+	cin>>b;
+	int area=2*(a+b);
+	cout<<area;
+	return 0;
+}
+__________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	float a=23,b=45,c=0.5;
+	float x=a*b*c;
+	cout<<x;
+	return 0;
+}
+___________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	float a=0.5;
+	float b;
+	cout<<"base b";
+	cin>>b;
+	float c;
+	cout<<"height c";
+	cin>>c;
+	float triangle=a*b*c;
+	cout<<triangle;
+	return 0;
+}
+______________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	float a=1.33;
+	float b=3.14;
+	float c=4;
+	float volume=a*b*c*c*c;
+	cout<<volume;
+	return 0;
+}
+_________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	float a=1.33;
+	float b=3.14;
+	float c;
+	cout<<"radius c";
+	cin>>c;
+	float volume=a*b*c*c*c;
+	cout<<volume;
+	return 0;
+}
+________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	float a=4,b=0.66,c=3.14;
+	float volume=a*b*c*c*c;
+	cout<<volume;
+	return 0;
+}
+_________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	float a=0.66,b=3.14;
+	float c;
+	cout<<"radius c";
+	cin>>c;
+	float volume=a*b*c*c*c;
+	cout<<volume;
+	return 0;
+}
+_________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int age=3;
+	if(age>=10)
+	{
+		cout<<"valid";
+	}
+	else{
+		cout<<"not valid";
+	}
+	return 0;
+}
+_________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int age;
+	cout<<"enter age";
+	cin>>age;
+	if(age>=43)
+	{
+		cout<<"valid";
+	}
+	else{
+		cout<<"not valid";
+	}
+	return 0;
+}
+__________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x=9;
+	if(x>10)
+	{
+		cout<<"greater than 10";
+	}
+	else{
+		cout<<"lesser than 10";
+	}
+	return 0;
+}
+____________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=45,b=4;
+	if(a>b)
+	{
+		cout<<"a is greater";
+	}
+	else{
+		cout<<"b is greater";
+	}
+	return 0;
+}
+____________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=7,b=44,c=45;
+	if(a>b&&a>c)
+	{
+		cout<<"a is max";
+	}
+	else if(b>c)
+	{
+		cout<<"b is max";
+	}
+	else{
+		cout<<"c is max";
+	}
+	return 0;
+}
+_____________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=88,b=99,c=654,d=322,e=88;
+	if(a>b&&a>c&&a>d&&a>e)
+	{
+		cout<<"a is max";
+	}
+	else if(b>c&&b>d&&b>e)
+	{
+		cout<<"b is max";
+	}
+	else if(c>d&&c>e)
+	{
+		cout<<"c is max";
+	}
+	else if(d>e)
+	{
+		cout<<"d is max";
+	}
+	else{
+		cout<<"e is max";
+	}
+	return 0;
+}
+____________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=-96;
+	if(a>0)
+	{
+		cout<<"+ve";
+	}
+	else if(a<0)
+	{
+		cout<<"-ve";
+	}
+	else{
+		cout<<"0";
+	}
+	return 0;
+}
+__________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	char a='e';
+	if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u')
+	{
+		cout<<"vowel";
+	}
+	else{
+		cout<<"consonent";
+	}
+	return 0;
+}
+________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=55;
+	if(a%5==0&&a%11==0)
+	{
+		cout<<"divisible";
+	}
+	else{
+		cout<<"not div";
+	}
+	return 0;
+}
+____________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	char a='o';
+	if(a>='a'&&a<='z')
+	{
+		cout<<"lower";
+	}
+	else if(a>='A'&&a<='Z')
+	{
+		cout<<"upper";
+	}
+	return 0;
+}
+______________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=22;
+	if(a%3==0&&a%7==0)
+	{
+		cout<<"div";
+	}
+	else{
+		cout<<"not div";
+	}
+	return 0;
+}
+______________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"enter a";
+	cin>>a;
+	if(a==1)
+	{
+		int c=45,v=456;
+		c=c+v;
+		v=c-v;
+		c=v*v;
+		cout<<  c;
+		cout<<  v;
+	}
+	else if(a==2)
+	{
+		int c=45,v=456;
+		c=c*v;
+		v=c+v;
+		c=v-c;
+		cout<<  c;
+		cout<<  v;
+	}
+	else if(a==3)
+	{
+		int c=45,v=456;
+		c=c+v;
+		v=c-v;
+		c=v;
+		cout<<  c;
+		cout<<  v;
+	}
+	return 0;
+}
+____________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int s='F';
+	if(s=='M'||s=='m')
+	{
+		cout<<"male";
+	}
+	else if(s=='F'||s=='f')
+	{
+		cout<<"female";
+	}
+	return 0;
+}
