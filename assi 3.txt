@@ -1,0 +1,441 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=2004;
+	if(a%4==0)
+	{
+		cout<<"leap";
+	}
+	else{
+		cout<<"not leap";
+	}
+	return 0;
+}
+______________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	char t;
+	cout<<"temp t";
+	cin>>t;
+	if(t=='c')
+	{
+		float s;
+		cout<<"enter s";
+		cin>>s;
+		float f=32+(s*1.8);
+		cout<<f;
+	}
+	else if(t=='f')
+	{
+		float w;
+		cout<<"enter w";
+		cin>>w;
+		float c=(w-32)*0.55;
+		cout<<c;
+	}
+	return 0;
+}
+__________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	char f;
+	cout<<"enter f";
+	cin>>f;
+	if(f=='a')
+	{
+		char s,r,t,m;
+		cout<<"enter figure name";
+		cin>>m;
+		if(m=='s')
+		cout<<"side*side";
+		else if(m=='r')
+		cout<<"2*(l*b)";
+		else if(m=='t')
+		{
+			cout<<"0.5*base*height";
+		}
+	}
+	else if(f=='v')
+	{
+		char s,r,t,n;
+		cout<<"enter figure name";
+		cin>>n;
+		if(n=='s')
+		cout<<"side*side*side";
+		else if(n=='r')
+		cout<<"l*b*h";
+		else if(n=='t')
+		{
+			cout<<"0.5*base*height*width";
+		}
+	}
+	return 0;
+}
+___________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	char t='-';
+	if(t>='a'&&t<='z')
+	{
+		cout<<"alphabet";
+	}
+	else{
+		cout<<"digit";
+	}
+	return 0;
+}
+_____________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int m;
+	cout<<"enter marks m";
+	cin>>m;
+	int x;
+	cout<<"enter marks x";
+	cin>>x;
+	int y;
+	cout<<"enter marks y";
+	cin>>y;
+	{
+		int t,a;
+		t=m+x+y;
+		a=(t*100)/300;
+		cout<<"enter percentage"<<a<<endl;
+		{
+			if(a<25)
+			{
+				cout<<"F";
+			}
+			if(a>=25&&a<=45)
+			{
+				cout<<"E";
+			}
+			if(a>=45&&a<=50)
+			{
+				cout<<"D";
+			}
+			if(a>=50&&a<=60)
+			{
+				cout<<"C";
+			}
+			if(a>=60&&a<=80)
+			{
+				cout<<"B";
+			}
+			if(a>=80)
+			{
+				cout<<"A";
+			}
+		}
+	}
+		return 0;
+}
+_______________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	char x;
+	cout<<"enter unit";
+	cin>>x;
+	if(x=='c')
+	{
+		float a;
+		cout<<"enter height in cm";
+		cin>>a;
+		float b=0.01*a;
+		if(b<50)
+		{
+			cout<<"low height";
+		}
+		if(b>=50&&b<=100)
+		{
+			cout<<"medium height";
+		}
+		if(b>100)
+		{
+			cout<<"tall height";
+		}
+	}
+	if(x=='m')
+	{
+	     		float l;
+		cout<<"enter height in m";
+		cin>>l;
+		if(l<50)
+		{
+			cout<<"low height";
+		}
+		if(l>=50&&l<=100)
+		{
+			cout<<"medium height";
+		}
+		if(l>100)
+		{
+			cout<<"tall height";
+		}
+	}
+	return 0;
+}
+________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	char n;
+	cout<<"enter name n";
+	cin>>n;
+	char f;
+	cout<<"enter father's name f";
+	cin>>n;
+	int r;
+	cout<<"enter roll no";
+	cin>>r;
+    int h;
+    cout<<"enter physics marks h";
+    cin>>h;
+    int c;
+    cout<<"enter chemistry marks c";
+    cin>>c;
+    int i;
+    cout<<"enter computer marks i";
+    cin>>i;
+    {
+    	int t=h+c+i;
+    	cout<<"total t"<<t<<endl;
+    	int p=(t*100)/300;
+    	cout<<"percentage p"<<p<<endl;
+    	{
+    		if(p<50)
+    		{
+    			cout<<"division third";
+			}
+			if(p>=50&&p<=80)
+			{
+				cout<<"second div";
+			}
+			if(p>80)
+			{
+				cout<<"first div";
+			}
+		}
+	}
+	return 0;
+}
+_____________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,c,d,e;
+	cout<<"enter five values";
+	cin>>a;
+	cin>>b;
+	cin>>c;
+	cin>>d;
+	cin>>e;
+	{
+		int f=(a+b+c+d+e)/5;
+		cout<<"average"<<f;
+		{
+			if(f>=45&&f<=50)
+			{
+				cout<<"D";
+			}
+			if(f>50&&f<=60)
+			{
+				cout<<"C";
+			}
+			if(f>60&&f<=80)
+			{
+				cout<<"B";
+			}
+			if(f>80)
+			{
+				cout<<"A";
+			}
+		}
+	}
+	return 0;
+}
+_________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=45,b=44,c=333;
+	if(a>b&&a>c)
+	{
+		cout<<"a is greater";
+	}
+	else if(b>c)
+	{
+		cout<<"b is greater";
+	}
+	else{
+		cout<<"c is greater";
+	}
+	return 0;
+}
+______________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	char n;
+	cout<<"enter name"<<endl;
+	cin>>n;
+	float b;
+	cout<<"enter unit";
+	cin>>b;
+	{
+		float a;
+		a=b*10;
+		cout<<"net amount"<<a<<endl;
+		{
+			if(a>=1&&a<=10)
+			{
+				float z;
+				z=(a*90)/100;
+				cout<<"discount"<<z;
+			}
+			if(a>=11&&a<=20)
+			{
+				float w;
+				w=(a*85)/100;
+				cout<<"discount"<<w;
+			}
+			if(a>=21&&a<=40)
+			{
+				float q;
+				q=(a*70)/100;
+				cout<<"discount"<<q;
+			}
+		}
+	}
+	return 0;
+}
+_________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	char x;
+	cout<<"enter x";
+	cin>>x;
+	if(x=='r')
+	{
+		int n;
+		cout<<"no of pieces n";
+		cin>>n;
+		if(n>=1&&n<=15)
+		{
+			int a;
+			cout<<"enter amount a";
+			cin>>a;
+			int z=(a*85)/100;
+			cout<<"discount prize"<<z;
+		}
+		if(n>=16&&n<=30)
+		{
+			int b;
+			cout<<"enter amount b";
+			cin>>b;
+			int y=(b*70)/100;
+			cout<<"discount prize"<<y;
+		}
+		if(n>=31&&n<=50)
+		{
+			int d;
+			cout<<"enter amount d";
+			cin>>d;
+			int p=(d*70)/100;
+			cout<<"discount prize"<<p;
+		}
+	}
+	if(x=='c')
+	{
+		int e;
+		cout<<"payment e";
+		cin>>e;
+		if(e>=100&&e<=1000)
+		{
+			int f=(e*95)/100;
+			cout<<"discount prize"<<f;
+		}
+		if(e>1000&&e<=2000)
+		{
+			int g=(e*90)/100;
+			cout<<"discount prize"<<g;
+		}
+		if(e>2000&&e<=3000)
+		{
+			int h=(e*85)/100;
+			cout<<"discount prize"<<h;
+		}
+		if(e>3000)	
+		{
+			int i=(e*70)/100;
+			cout<<"discount prize"<<i;
+		}
+	}
+	return 0;
+}
+___________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	string name;
+	cout<<"enter name";
+	cin>>name;
+	string any;
+	cout<<"enter address";
+	cin>>any;
+	int h;
+	cout<<"enter holidays h";
+	cin>>h;
+	if(h==0&&h<2)
+		{
+			int s;
+			cout<<"enter salary";
+			cin>>s;
+			int r=s;
+			cout<<"salary reduction"<<r;
+		}
+	else if(h>=2&&h<=5)
+		{
+			int w;
+			cout<<"enter salary";
+			cin>>w;
+			int m=(w*95)/100;
+			cout<<"salary reduction"<<m;
+		}
+    else if(h>5&&h<=14)
+    	{
+    	    int v;
+			cout<<"enter salary";
+			cin>>v;
+			int y=(v*90)/100;
+    		cout<<"salary reduction"<<y;
+    	}
+    else if(h>14)
+	    {
+	    	int k;
+			cout<<"enter salary";
+			cin>>k;
+			int o=(k*85)/100;
+	     	cout<<"salary reduction"<<o;
+    	}
+		return 0;
+}
+_____________________________________________________________________
