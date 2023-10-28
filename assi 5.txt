@@ -1,0 +1,362 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=153,b,c=0;
+	while(a>0)
+	{
+		b=a%10;
+		c=c*10+b;
+		a=a/10;
+	}
+	cout<<c;
+	return 0;
+}
+__________________________________________________-
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=34,b,c=0;
+	int temp=a;
+	while(a>0)
+	{
+		b=a%10;
+		c=c*10+b;
+		a=a/10;
+	}
+	if(temp==c)
+	{
+		cout<<"palleldrome";
+	}
+	else{
+		cout<<"non palleldrome";
+	}
+	return 0;
+}
+_________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=7,b=1,c=1;
+	while(a>=c)
+	{
+		b=b*c;
+		c++;
+	}
+	cout<<b;
+	return 0;
+}
+________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=377,b=2;
+	while(a>b)
+	{
+		if(a%b==0)
+		{
+			cout<<"non prime";
+			break;
+		}
+		 if(b==a-1)
+		{
+			cout<<"prime";
+		}
+		b++;
+	}
+	return 0;
+}
+_____________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x=5;
+	while(x<=50)
+	{
+		int c=4;
+		while(c<=45)
+		{
+			cout<<c*x;
+			c++;
+		}
+		cout<<endl;
+		x++;
+	}
+	return 0;
+}
+___________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"enter a";
+	cin>>a;
+	if(a>=1000&&a<=10000)
+	{
+		cout<<"4 digit";
+	}
+	if(a>=100&&a<1000)
+	{
+		cout<<"3 digit";
+	}
+	if(a<100)
+	{
+		cout<<"2 digit";
+	}
+	return 0;
+}
+____________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=1,x=0;
+	while(a<=5)
+    {
+    	if(a%2==0)
+    	{
+    		x=x+a;
+		}
+		a++;
+	}
+	cout<<x;
+	return 0;
+}
+_____________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=1,x=0;
+	while(a<=100)
+    {
+    	if(a%2==0)
+    	{
+    	   cout<<a;
+		}
+		a++;
+	}
+	return 0;
+}
+___________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"enter a";
+	cin>>a;
+	int n;
+	cout<<"enter n";
+	cin>>n;
+	int x=0;
+	while(a<=n)
+    {
+    	if(a%2==0)
+    	{
+    	   x=a+x;
+		}
+		a++;
+	}
+	cout<<x;
+	return 0;
+}
+________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=1,x=0;
+	while(a<=100)
+    {
+    	if(a%2!=0)
+    	{
+    	   cout<<a;
+		}
+		a++;
+	}
+	return 0;
+}
+__________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=1,x=0;
+	while(a<=100)
+    {
+    	if(a%2!=0)
+    	{
+    		x=x+a;
+		}
+		a++;
+	}
+	cout<<x;
+	return 0;
+}
+_______________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"enter a";
+	cin>>a;
+	int n;
+	cout<<"enter n";
+	cin>>n;
+	int x=0;
+	while(a<=n)
+    {
+    	if(a%2!=0)
+    	{
+    	   x=a+x;
+		}
+		a++;
+	}
+	cout<<x;
+	return 0;
+}
+____________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int u=1;
+	while(u<=100)
+	{
+		if(u%2==0)
+		{
+			cout<<u;
+		}
+		u++;
+	}
+}
+___________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i=1,b=0;
+	while(i<=100)
+	{
+		if(i%2==0)
+		{
+			b=b+i;
+		}
+		i++;
+	}
+	cout<<b;
+	return 0;
+}
+___________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int v;
+	cout<<"enter v";
+	cin>>v;
+	int n;
+	cout<<"n";
+	cin>>n;
+	while(v<=n)
+	{
+		if(v%2==0)
+		{
+			cout<<v;
+		}
+		v++;
+	}
+	return 0;
+}
+__________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int v;
+	cout<<"enter v";
+	cin>>v;
+	int y=0;
+	int n;
+	cout<<"n";
+	cin>>n;
+	while(v<=n)
+	{
+		if(v%2==0)
+		{
+			y=y+v;
+		}
+		v++;
+	}
+	cout<<y;
+	return 0;
+}
+_______________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=45,b=1,c=0;
+	while(a>b)
+	{
+		if(a%b==0)
+		{
+			c=b+c;
+		}
+		b++;
+	}
+	if(b==c)
+	{
+		cout<<"perfect no";
+	}
+	else{
+		cout<<"not perfect no";
+	}
+	return 0;
+}
+__________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x=74,r,d,n=0;
+	r =x*x;
+	while(r>0)
+	{
+		d=r%10;
+		n=n+d;
+		r=r/10;
+	}
+	if(n==x)
+	{
+		cout<<"neon no";
+	}
+	else{
+		cout<<"not neon no";
+	}
+	return 0;
+}
+_______________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int w=9,x,y=-1,z=1;
+	while(w>0)
+	{
+		x=y+z;
+		y=z;
+		z=x;
+		cout<<x<<endl;
+		w--;
+	}
+	return 0;
+}
+______________________________________________________________________
