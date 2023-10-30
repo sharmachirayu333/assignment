@@ -1,0 +1,221 @@
+#include<iostream>
+using namespace std;
+class Add{
+	public:
+		Add(){
+			int x=45,y=34;
+			int f=x+y;
+			cout<<f;
+		}
+};
+int main()
+{
+	Add add;
+        return 0;
+}
+__________________________________________________
+#include<iostream>
+using namespace std;
+class Sub{
+	public:
+		Sub()
+		{
+			int s=88,d=34;
+			int t=s-d;
+			cout<<t;
+		}
+};
+int main()
+{
+	Sub j;
+	return 0;
+}
+____________________________________________________
+#include<iostream>
+using namespace std;
+class Mul{
+	public:
+		Mul(){
+			int a=44,b=98;
+			int d=a*b;
+			cout<<d;
+		}
+};
+int main()
+{
+	Mul res;
+	return 0;
+}
+_________________________________________________________
+#include<iostream>
+using namespace std;
+class Div{
+	public:
+		Div()
+		{
+			int a=90,b=5;
+			int x=a/b;
+			cout<<x;
+		}
+};
+int main()
+{
+	Div div;
+	return 0;
+}
+__________________________________________________________
+#include<iostream>
+using namespace std;
+class Mod{
+	public:
+	   Mod()
+	   	{
+	   		int a=33,b=9;
+	   		int x=a%b;
+	   		cout<<x;
+		   }
+};
+int main()
+{
+	Mod mod;
+	return 0;
+}
+______________________________________________________________
+#include<iostream>
+using namespace std;
+class Id{
+	public:
+		Id()
+		{
+			int x=34567;
+			cout<<x<<endl;
+			string name="chirayu";
+			cout<<name;
+		}
+};
+int main()
+{
+	Id t;
+	return 0;
+}
+________________________________________________________________
+#include<iostream>
+using namespace std;
+class Id{
+	public:
+		Id()
+		{
+			int x;
+			cout<<"enter x";
+			cin>>x;
+			string name;
+			cout<<"enter name";
+			cin>>name;
+			cout<<x<<endl<<name;
+		}
+};
+int main()
+{
+	Id t;
+	return 0;
+}
+_________________________________________________________________
+#include<iostream>
+using namespace std;
+class Add{
+	public:
+		Add(){
+			int x;
+			cout<<"enter x";
+			cin>>x;
+			int y;
+			cout<<"enter y";
+			cin>>y;
+			int f=x+y;
+			cout<<f;
+		}
+};
+int main()
+{
+	Add add;
+}
+_________________________________________________________________
+#include<iostream>
+using namespace std;
+class Add{
+	public:
+		Add(){
+			int x;
+			cout<<"enter x";
+			cin>>x;
+			int y;
+			cout<<"enter y";
+			cin>>y;
+			int f=x-y;
+			cout<<f;
+		}
+};
+int main()
+{
+	Add add;
+}
+_________________________________________________________________
+#include<iostream>
+using namespace std;
+class Add{
+	public:
+		Add(){
+			int x;
+			cout<<"enter x";
+			cin>>x;
+			int y;
+			cout<<"enter y";
+			cin>>y;
+			int f=x*y;
+			cout<<f;
+		}
+};
+int main()
+{
+	Add add;
+}
+________________________________________________________________
+#include<iostream>
+using namespace std;
+class Add{
+	public:
+		Add(){
+			int x;
+			cout<<"enter x";
+			cin>>x;
+			int y;
+			cout<<"enter y";
+			cin>>y;
+			int f=x/y;
+			cout<<f;
+		}
+};
+int main()
+{
+	Add add;
+}
+_________________________________________________________________
+#include<iostream>
+using namespace std;
+class Add{
+	public:
+		Add(){
+			int x;
+			cout<<"enter x";
+			cin>>x;
+			int y;
+			cout<<"enter y";
+			cin>>y;
+			int f=x%y;
+			cout<<f;
+		}
+};
+int main()
+{
+	Add add;
+}
