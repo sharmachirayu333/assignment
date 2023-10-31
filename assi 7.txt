@@ -1,0 +1,574 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i=1;
+	for(i=1;i<=100;i++)
+	{
+		cout<<i;
+	}
+	return 0;
+}
+__________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i=100;
+	for(i=100;i>=1;i--)
+	{
+		cout<<i;
+	}
+	return 0;
+}
+______________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x=1;
+	for(x=1;x<=100;x++)
+	{
+		if(x%2==0)
+		{
+			cout<<x;
+		}
+	}
+	return 0;
+}
+________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x=100;
+	for(x=100;x>=1;x--)
+	{
+		if(x%2==0)
+		{
+			cout<<x;
+		}
+	}
+	return 0;
+}
+___________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x=1;
+	for(x=1;x<=100;x++)
+	{
+		if(x%2!=0)
+		{
+			cout<<x;
+		}
+	}
+	return 0;
+}
+_____________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x=50;
+	for(x=50;x<=500;x++)
+	{
+		cout<<x;
+	}
+	return 0;
+}
+_____________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x=500;
+	for(x=500;x>=50;x--)
+	{
+		cout<<x;
+	}
+	return 0;
+}
+____________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x=50;
+	for(x=50;x<=1000;x++)
+	{
+		if(x%2==0)
+		{
+				cout<<x;
+		}
+	}
+	return 0;
+}
+_____________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x;
+	cout<<"enter x";
+	cin>>x;
+	int y;
+	cout<<"enter y";
+	cin>>y;
+	for(x;x<y;x++)
+	{
+		cout<<x;
+	}
+	return 0;
+}
+_______________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x;
+	cout<<"enter x";
+	cin>>x;
+	int y;
+	cout<<"enter y";
+	cin>>y;
+	for(x;x<y;x++)
+	{
+		if(x%2==0)
+		{
+				cout<<x;
+		}
+		}
+	return 0;
+}
+___________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x;
+	cout<<"enter x";
+	cin>>x;
+	int y;
+	cout<<"enter y";
+	cin>>y;
+	for(x;x<y;x++)
+	{
+		if(x%2!=0)
+		{
+				cout<<x;
+		}
+		}
+	return 0;
+}
+_______________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=1,b=0;
+	for(a=1;a<=10;a++)
+	{
+		b=b+a;
+	}
+	cout<<b;
+	return 0;
+}
+__________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x=2;
+	for(x=2;x<=20;x++)
+	{
+		if(x%2==0)
+		{
+			cout<<x<<endl;
+		}
+	}
+	return 0;
+}
+_________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x=1;
+	int a;
+	cout<<"enter a";
+	cin>>a;
+	int n;
+	cout<<"enter n";
+	cin>>n;
+	for(x;x<=n;x++)
+	{
+		if(x%a==0)
+		{
+			cout<<x<<endl;
+		}
+	}
+	return 0;
+}
+________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x=2;
+	for(x=2;x<=9;x++)
+	{
+	   int y=1;
+		for(y=1;y<=10;y++)
+		{
+			cout<< x*y ;
+		}
+		cout<<endl;
+	}
+	return 0;
+}
+_________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int s=1;
+	for(s=1;s<=100;s++)
+	{
+		if(s%3==0&&s%7==0)
+		{
+			cout<<s;
+		}
+	}
+	return 0;
+}
+____________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int s=1;
+	for(s=1;s<=100;s++)
+	{
+		if(s%5==0&&s%11==0)
+		{
+			cout<<s;
+		}
+	}
+	return 0;
+}
+__________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int s=100;
+	for(s=100;s>=1;s--)
+	{
+		if(s%5==0&&s%11==0)
+		{
+			cout<<s;
+		}
+	}
+	return 0;
+}
+_________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int s=1;
+	int m;
+	cout<<"enter m";
+	cin>>m;
+	int n;
+	cout<<"n";
+	cin>>n;
+	for(s=1;s<=100;s++)
+	{
+		if(s%m==0&&s%n==0)
+		{
+			cout<<s;
+		}
+	}
+	return 0;
+}
+___________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int d=1,a=2;
+	for(d=1;d<=20;d++)
+	{
+		cout<<a<<"X"<<d<<"="<<a*d<<endl;
+	}
+	return 0;
+}
+____________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int d=1,a;
+	cout<<"a";
+	cin>>a;
+	for(d=1;d<=20;d++)
+	{
+		cout<<a<<"X"<<d<<"="<<a*d<<endl;
+	}
+	return 0;
+}
+___________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x=1;
+	while(x<=10)
+	{
+	  	cout<<x;
+	  	x++;
+	}
+	return 0;
+}
+_______________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x=1,a=1;
+	while(x<=10)
+	{
+	  	a=x+a;
+	  	x++;
+	}
+	cout<<a;
+	return 0;
+}
+___________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int t=1;
+	int y;
+	cout<<y;
+	cin>>y;
+	{
+	  if(y>0)
+	  {
+	     	while(t<=10)
+     	{
+     		cout<<y<<"X"<<t<<"="<<y*t<<endl;
+	    	t++;
+     	}
+	  }
+	  else{
+	  	cout<<"negative no";
+	  }
+    }
+	return 0;
+}
+______________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=2;
+	while(a<=10)
+	{
+		int b=1;
+		while(b<=10)
+		{
+			cout<<a*b;
+			b++;
+		}
+		a++;
+		cout<<endl;
+	}
+	return 0;
+}
+_____________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"a";
+	cin>>a;
+	int n;
+	cout<<"n";
+	cin>>n;
+	while(a<=n)
+	{
+		int b=1;
+		while(b<=n)
+		{
+			cout<<a*b;
+			b++;
+		}
+		a++;
+		cout<<endl;
+	}
+	return 0;
+}
+___________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int e=1;
+	int x;
+	cout<<"x";
+	cin>>x;
+	int g;
+	cout<<"g";
+	cin>>g;
+	while(e<=100)
+	{
+		if(e%x==0&&e%g==0)
+		{
+			cout<<e;
+		}
+		e++;
+	}
+	return 0;
+}
+________________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=20;
+	while(a>=1)
+	{
+		int b=20;
+		while(b>=2)
+		{
+			cout<<a*b;
+		     b--;
+		}
+		a--;
+		cout<<endl;
+	}
+	return 0;
+}
+____________________________________________________________________________-
+#include<iostream>
+using namespace std;
+int main()
+{
+    char d;
+    cout<<"d";
+    cin>>d;
+    if(d=='a')
+    {
+    	int z;
+    	cout<<"z";
+    	cin>>z;
+    	int temp=z;
+    	int x,c=0;
+    	while(z>0)
+    	{
+    		x=z%10;
+    		c=c+x*x*x;
+    		z=z/10;
+		}
+		if(c==temp)
+		{
+			cout<<"arm";
+		}
+		else{
+			cout<<"not arm";
+		}
+	}
+	if(d=='p')
+	{
+		int v;
+		cout<<"v";
+		cin>>v;
+		int temp=v;
+		int b,n=0;
+		while(v>0)
+		{
+			b=v%10;
+			n=n*10+b;
+			v=v/10;
+		}
+		if(n==temp)
+		{
+			cout<<"pall";
+		}
+		else{
+			cout<<"non";
+		}
+	}
+	if(d=='r')
+	{
+	 int m;
+		cout<<"m";
+		cin>>m;
+		int temp=m;
+		int l,k=0;
+		while(m>0)
+		{
+			l=m%10;
+			k=k*10+l;
+			m=m/10;
+		}
+	    cout<<k;
+	}
+}
+______________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"a";
+	cin>>a;
+	int v=1,c=1;
+	while(a>=c)
+	{
+		v=v*c;
+		c++;
+	}
+	cout<<v;
+	return 0;
+}
+_____________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=1;
+	string name;
+	cout<<"name";
+	cin>>name;
+	if(name=="even")
+	{
+		while(a<=100)
+		{
+		    if(a%2==0)
+		    {
+		    	cout<<a;
+			}
+			a++;
+		}
+	}
+	if(name=="odd")
+	{
+		while(a<=100)
+		{
+		    if(a%2!=0)
+		    {
+		    	cout<<a;
+			}
+			a++;
+		}
+	}
+	return 0;
+}
+_______________________________________________________________________________-
