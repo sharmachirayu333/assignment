@@ -1,0 +1,684 @@
+#include<iostream>
+using namespace std;
+class Add{
+	public:
+		Add(int z,int g)
+		{
+			int a=z+g;
+			cout<<a;
+		}
+};
+int main()
+{
+	Add q=Add(4,5);
+	return 0;
+}
+_____________________________________________
+#include<iostream>
+using namespace std;
+class Add{
+	public:
+		Add(int x,int r)
+		{
+			int e=x+r;
+			cout<<e;
+		}
+};
+int main()
+{
+	int t;
+	cout<<"enter t";
+	cin>>t;
+	int w;
+	cout<<"enter w";
+	cin>>w;
+	Add n=Add(t,w);
+	return 0;
+}
+_______________________________________________
+#include<iostream>
+using namespace std;
+class Add{
+	public:
+		Add(float z,float g)
+		{
+			float a=z+g;
+			cout<<a;
+		}
+};
+int main()
+{
+	Add q=Add(4.744,5.147);
+	return 0;
+}
+____________________________________________________
+#include<iostream>
+using namespace std;
+class Add{
+	public:
+		Add(float x,float r)
+		{
+			float e=x+r;
+			cout<<e;
+		}
+};
+int main()
+{
+	float t;
+	cout<<"enter t";
+	cin>>t;
+	float w;
+	cout<<"enter w";
+	cin>>w;
+	Add n=Add(t,w);
+	return 0;
+}
+___________________________________________________
+#include<iostream>
+using namespace std;
+class Add{
+	public:
+		Add(int x,float r)
+		{
+			float e=x+r;
+			cout<<e;
+		}
+};
+int main()
+{
+	int t;
+	cout<<"enter t";
+	cin>>t;
+	float w;
+	cout<<"enter w";
+	cin>>w;
+	Add n=Add(t,w);
+	return 0;
+}
+_____________________________________________________
+#include<iostream>
+using namespace std;
+class Sub{
+	public:
+		Sub(int x,int l)
+		{
+			int p=x-l;
+			cout<<p;
+		}
+};
+int main()
+{
+	Sub q=Sub(74,5);
+	return 0;
+}
+___________________________________________________________
+#include<iostream>
+using namespace std;
+class Sub{
+	public:
+		Sub(int x,float r)
+		{
+			float e=x-r;
+			cout<<e;
+		}
+};
+int main()
+{
+	int t;
+	cout<<"enter t";
+	cin>>t;
+	float w;
+	cout<<"enter w";
+	cin>>w;
+	Sub n=Sub(t,w);
+	return 0;
+}
+____________________________________________________________
+#include<iostream>
+using namespace std;
+void maths();
+int main()
+{
+	    maths();
+		return 0;
+}
+void maths(){
+	int a=44,b=90;
+	int f=a+b;
+   cout<<f;
+}
+_____________________________________________________
+#include<iostream>
+using namespace std;
+void cal();
+int main()
+{
+	cal();
+	return 0;
+}
+void cal(){
+	int a;
+	cout<<"enter a";
+	cin>>a;
+	int b;
+	cout<<"enter b";
+	cin>>b;
+	int u=a+b;
+	cout<<u;
+}
+___________________________________________________
+#include<iostream>
+using namespace std;
+void sub();
+int main()
+{
+	sub();
+	return 0;
+}
+void sub(){
+	int g=89,b=900;
+	int y=b-g;
+	cout<<y;
+}
+____________________________________________________
+#include<iostream>
+using namespace std;
+void sub();
+int main()
+{
+	sub();
+	return 0;
+}
+void sub(){
+	int a;
+	cout<<"enter a";
+	cin>>a;
+	int v;
+	cout<<"enter v";
+	cin>>v;
+	int d=a-v;
+	cout<<d;
+}
+___________________________________________________________
+#include<iostream>
+using namespace std;
+void maths();
+int main()
+{
+	    maths();
+		return 0;
+}
+void maths(){
+	int a=44,b=90;
+	int f=a*b;
+   cout<<f;
+}
+_____________________________________________________
+#include<iostream>
+using namespace std;
+void cal();
+int main()
+{
+	cal();
+	return 0;
+}
+void cal(){
+	int a;
+	cout<<"enter a";
+	cin>>a;
+	int b;
+	cout<<"enter b";
+	cin>>b;
+	int u=a*b;
+	cout<<u;
+}
+________________________________________________________
+#include<iostream>
+using namespace std;
+void maths();
+int main()
+{
+	    maths();
+		return 0;
+}
+void maths(){
+	int a=4410,b=90;
+	int f=a/b;
+   cout<<f;
+}
+___________________________________________________
+#include<iostream>
+using namespace std;
+void cal();
+int main()
+{
+	cal();
+	return 0;
+}
+void cal(){
+	int a;
+	cout<<"enter a";
+	cin>>a;
+	int b;
+	cout<<"enter b";
+	cin>>b;
+	int u=a/b;
+	cout<<u;
+}
+___________________________________________________
+#include<iostream>
+using namespace std;
+void maths();
+int main()
+{
+	    maths();
+		return 0;
+}
+void maths(){
+	int a=410,b=190;
+	int f=a%b;
+   cout<<f;
+}
+_____________________________________________________
+#include<iostream>
+using namespace std;
+void cal();
+int main()
+{
+	cal();
+	return 0;
+}
+void cal(){
+	int a;
+	cout<<"enter a";
+	cin>>a;
+	int b;
+	cout<<"enter b";
+	cin>>b;
+	int u=a%b;
+	cout<<u;
+}
+____________________________________________________
+#include<iostream>
+using namespace std;
+void rev();
+int main()
+{
+	rev();
+	return 0;
+}
+void rev(){
+	int d;
+	cout<<"enter d";
+	cin>>d;
+	int m,n=0;
+	while(d>0)
+	{
+		m=d%10;
+		n=n*10+m;
+		d=d/10;
+	}
+		cout<<n;
+}
+__________________________________________________________
+#include<iostream>
+using namespace std;
+void swap();
+int main()
+{
+	swap();
+	return 0;
+}
+void swap(){
+	int w;
+	cout<<"enter w";
+	cin>>w;
+	if(w==1)
+	{
+		int y=44,b=555,s;
+		s=b+y;
+		y=s-b;
+		b=s+y;
+		cout<<s<<endl<<b<<endl<<y;
+	}
+	if(w==2)
+	{
+		int f=66,p=9997,d;
+		d=f*p;
+		p=f-d;
+		f=d+p;
+		cout<<d<<endl<<p<<endl<<f;
+	}
+	if(w==3)
+	{
+		int q=55,h=77,l;
+		l=q;
+		q=l-h;
+		h=l*q;
+		cout<<l<<endl<<q<<endl<<h;
+	}
+}
+_______________________________________________________________
+#include<iostream>
+using namespace std;
+void pall();
+int main()
+{
+	pall();
+	return 0;
+}
+void pall(){
+	int a;
+	cout<<"enter a";
+	cin>>a;
+	int temp=a;
+	int v,e=0;
+	while(a>0)
+	{
+		v=a%10;
+		e=e*10+v;
+		a=a/10;
+	}
+	if(e==temp)
+	{
+		cout<<"pall";
+	}
+	else{
+		cout<<"not pall";
+	}
+}
+______________________________________________________________
+#include<iostream>
+using namespace std;
+void prime();
+int main()
+{
+	prime();
+	return 0;
+}
+void prime(){
+	int a;
+	cout<<"a";
+	cin>>a;
+	int b=2;
+	while(a>b)
+	{
+		if(a%b==0)
+		{
+			cout<<"not prime";
+			break;
+		}
+		if(b==a-1)
+		{
+			cout<<"prime";
+		}
+		 b++;
+	}
+}
+________________________________________________________________________
+#include<iostream>
+using namespace std;
+void even();
+int main()
+{
+	even();
+	return 0;
+}
+void even(){
+	int a;
+	cout<<"a";
+	cin>>a;
+    if(a%2==0)
+    {
+    	cout<<"even";
+	}
+	else{
+		cout<<"odd";
+	}
+}
+___________________________________________________________________________
+#include<iostream>
+using namespace std;
+void fact();
+int main()
+{
+	fact();
+	return 0;
+}
+void fact(){
+	int a;
+	cout<<"a";
+	cin>>a;
+	int b=1,c=1;
+	while(a>=c)
+	{
+		b=b*c;
+		c++;
+	}
+	cout<<b;
+}
+________________________________________________________________
+#include<iostream>
+using namespace std;
+void arm();
+int main()
+{
+	arm();
+	return 0;
+}
+void arm(){
+	int a;
+	cout<<"a";
+	cin>>a;
+	int temp=a;
+	int b,c=0;
+	while(a>0)
+	{
+		b=a%10;
+		c=c+b*b*b;
+		a=a/10;
+	}
+	if(temp==c)
+	{
+		cout<<"arm";
+	}
+	else{
+		cout<<"not arm";
+	}
+}
+_________________________________________________________
+#include<iostream>
+using namespace std;
+void gender();
+int main()
+{
+	gender();
+	return 0;
+}
+void gender(){
+	char a;
+	cout<<"a";
+	cin>>a;
+	if(a=='m'||a=='M')
+	{
+		cout<<"male";
+	}
+	else if(a=='f'||a=='F')
+	{
+		cout<<"female";
+	}
+	else{
+		cout<<"other";
+	}
+}
+_________________________________________________________________
+#include<iostream>
+using namespace std;
+int a();
+int main()
+{
+	a();
+}
+int a(){
+	int g=9,m=88;
+	int h=g+m;
+	cout<<h;
+	return h;
+}
+_____________________________________________________________
+#include<iostream>
+using namespace std;
+int a();
+int main()
+{
+	a();
+	return 0;
+}
+int a(){
+	int d;
+	cout<<"d";
+	cin>>d;
+	int f;
+	cout<<"f";
+	cin>>f;
+	int w=d+f;
+	cout<<w;
+	return w;
+}
+____________________________________________________________________
+#include<iostream>
+using namespace std;
+int a();
+int main()
+{
+	a();
+}
+int a(){
+	int g=99,m=88;
+	int h=g-m;
+	cout<<h;
+	return h;
+}
+___________________________________________________
+#include<iostream>
+using namespace std;
+int a();
+int main()
+{
+	a();
+	return 0;
+}
+int a(){
+	int d;
+	cout<<"d";
+	cin>>d;
+	int f;
+	cout<<"f";
+	cin>>f;
+	int w=d-f;
+	cout<<w;
+	return w;
+}
+_______________________________________________________
+#include<iostream>
+using namespace std;
+int a();
+int main()
+{
+	a();
+}
+int a(){
+	int g=9,m=8;
+	int h=g*m;
+	cout<<h;
+	return h;
+}
+__________________________________________________________
+#include<iostream>
+using namespace std;
+int a();
+int main()
+{
+	a();
+	return 0;
+}
+int a(){
+	int d;
+	cout<<"d";
+	cin>>d;
+	int f;
+	cout<<"f";
+	cin>>f;
+	int w=d*f;
+	cout<<w;
+	return w;
+}
+______________________________________________________________
+#include<iostream>
+using namespace std;
+int a();
+int main()
+{
+	a();
+}
+int a(){
+	int g=96,m=8;
+	int h=g/m;
+	cout<<h;
+	return h;
+}
+_______________________________________________________
+#include<iostream>
+using namespace std;
+int a();
+int main()
+{
+	a();
+	return 0;
+}
+int a(){
+	int d;
+	cout<<"d";
+	cin>>d;
+	int f;
+	cout<<"f";
+	cin>>f;
+	int w=d/f;
+	cout<<w;
+	return w;
+}
+_________________________________________________________
+#include<iostream>
+using namespace std;
+int a();
+int main()
+{
+	a();
+}
+int a(){
+	int g=97,m=8;
+	int h=g%m;
+	cout<<h;
+	return h;
+}
+________________________________________________________
+#include<iostream>
+using namespace std;
+int a();
+int main()
+{
+	a();
+	return 0;
+}
+int a(){
+	int d;
+	cout<<"d";
+	cin>>d;
+	int f;
+	cout<<"f";
+	cin>>f;
+	int w=d%f;
+	cout<<w;
+	return w;
+}
+___________________________________________________________
