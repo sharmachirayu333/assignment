@@ -1,0 +1,500 @@
+#include<iostream>
+using namespace std;
+class Cal{
+	public:
+		void sum(){
+			int a=77,b=77;
+			int e=a+b;
+            cout<<e;
+		}
+};
+int main()
+{
+	Cal b=Cal();
+	b.sum();
+	return 0;
+}
+___________________________________________________
+#include<iostream>
+using namespace std;
+class Cal{
+	public:
+		void sum(){
+			int a;
+			cin>>a;
+			int b;
+			cin>>b;
+			int p=a+b;
+			cout<<p;
+		}
+};
+int main()
+{
+	Cal y=Cal();
+	y.sum();
+	return 0;
+}
+___________________________________________________
+#include<iostream>
+using namespace std;
+class Sub{
+	public:
+		void diff(){
+			int a=66,b=33;
+			int y=a-b;
+			cout<<y;
+		}
+};
+int main()
+{
+	Sub a=Sub();
+	a.diff();
+	return 0;
+}
+_________________________________________________________
+#include<iostream>
+using namespace std;
+class Diff{
+	public:
+		void sub(){
+			int g;
+			cin>>g;
+			int h;
+			cin>>h;
+			int j=g-h;
+			cout<<j;
+		}
+};
+int main()
+{
+	Diff p=Diff();
+	p.sub();
+	return 0;
+}
+_________________________________________________________
+#include<iostream>
+using namespace std;
+class Sum{
+	public:
+		void add(int a,int v){
+			int u=a+v;
+			cout<<u;
+		}
+};
+int main()
+{
+	Sum g=Sum();
+	g.add(2,55);
+	return 0;
+}
+_____________________________________________________________
+#include<iostream>
+using namespace std;
+class Add{
+	public:
+		void sum(int a,int b){
+			int d=a+b;
+			cout<<d;
+		}
+};
+int main()
+{
+	int y,f;
+	cin>>y>>f;
+	Add e=Add();
+	e.sum(y,f);
+	return 0;
+}
+____________________________________________________________________
+#include<iostream>
+using namespace std;
+class Sub{
+	public:
+		void dif(int a,int v){
+			int q=a-v;
+			cout<<q;
+		}
+};
+int main()
+{
+	Sub g=Sub();
+	g.dif(222,63);
+	return 0;
+}
+__________________________________________________________
+#include<iostream>
+using namespace std;
+class W{
+	public:
+		void sum(int g,int p){
+			int s=g-p;
+			cout<<s;
+		}
+};
+int main()
+{
+	int k,c;
+	cin>>k>>c;
+	W e=W();
+	e.sum(k,c);
+	return 0;
+}
+______________________________________________________
+#include<iostream>
+using namespace std;
+class Ass{
+	public:
+		int work(){
+			int g=90,u=23;
+			int a=g+u;
+			cout<<a;
+			return a;
+		}
+};
+int main()
+{
+	Ass q=Ass();
+	q.work();
+	return 0;
+}
+________________________________________________________
+#include<iostream>
+using namespace std;
+class C{
+	public:
+		int math(){
+			int a,b;
+			cin>>a>>b;
+			int c=a+b;
+			cout<<c;
+			return c;
+		}
+};
+int main()
+{
+	C a=C();
+    a.math();
+    return 0;
+}
+____________________________________________________________________
+#include<iostream>
+using namespace std;
+class B{
+	public:
+		int abc(){
+			int a=23,b=45;
+			int x=a-b;
+			cout<<x;
+			return x;
+		}
+};
+int main()
+{
+	B r=B();
+	r.abc();
+	return 0;
+}
+__________________________________________________________________
+#include<iostream>
+using namespace std;
+class D{
+	public:
+		int def(){
+			int a,b;
+			cin>>a>>b;
+			int o=a-b;
+			cout<<o;
+			return o;
+		}
+};
+int main()
+{
+	D v=D();
+	v.def();
+	return 0;
+}
+____________________________________________________________________
+#include<iostream>
+using namespace std;
+class E{
+	public:
+		int w(int a,int b){
+			int d=a+b;
+			cout<<d;
+			return d;
+		}
+};
+int main()
+{
+	E f=E();
+	f.w(22,45);
+	return 0;
+}
+_____________________________________________________________________
+#include<iostream>
+using namespace std;
+class E{
+	public:
+		int s(int a,int b){
+			int s=a+b;
+			cout<<s;
+			return s;
+		}
+};
+int main()
+{
+	int t,n;
+	cin>>t>>n;
+	E c=E();
+	c.s(t,n);
+	return 0;
+}
+_________________________________________________________________
+#include<iostream>
+using namespace std;
+class F{
+	public:
+		int d(int a,int b){
+		     int c=a-b;
+		     cout<<c;
+		     return c;
+		}
+};
+int main()
+{
+	F x=F();
+	x.d(44,22);
+	return 0;
+}
+_______________________________________________________________
+#include<iostream>
+using namespace std;
+class R{
+	public:
+		int a(int s,int o){
+			int p=s-o;
+			cout<<p;
+			return p;
+		}
+};
+int main()
+{
+	int n,m;
+	cin>>n>>m;
+	R i=R();
+	i.a(n,m);
+	return 0;
+}
+__________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		void f(int a,int b){
+			int y=a+b;
+			cout<<y<<endl;
+		}
+		int s(int q,int p){
+			int d=q-p;
+			cout<<d<<endl;
+			return d;
+		}
+		int w(){
+			int h=23,j=90;
+			int i=h*j;
+			cout<<i<<endl;
+			return i;
+		}
+		void t(){
+			int k=45,l=9;
+			int m=k/l;
+			cout<<m;
+		}
+};
+int main()
+{
+	A z=A();
+	z.f(32,45);
+	z.s(123,52);
+	z.w();
+	z.t();
+	return 0;
+}
+__________________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		void f(int a,int b){
+			int y=a+b;
+			cout<<y<<endl;
+		}
+		int s(int q,int p){
+			int d=q-p;
+			cout<<d<<endl;
+			return d;
+		}
+		int w(){
+			int h,j;
+			cin>>h>>j;
+			int i=h*j;
+			cout<<i<<endl;
+			return i;
+		}
+		void t(){
+			int k,l;
+			cin>>k>>l;
+			int m=k/l;
+			cout<<m;
+		}
+};
+int main()
+{
+	int x,y;
+	cin>>x>>y;
+	int f,w;
+	cin>>f>>w;
+	A z=A();
+	z.f(x,y);
+	z.s(f,w);
+	z.w();
+	z.t();
+	return 0;
+}
+____________________________________________________________________________
+#include<iostream>
+using namespace std;
+class Z{
+	public:
+		void add(){
+			int a=45,c=55;
+			int h=a+c;
+			cout<<h;
+		}
+};
+int main()
+{
+	Z j=Z();
+	j.add();
+	return 0;
+}
+_________________________________________________________________________
+#include<iostream>
+using namespace std;
+class Z{
+	public:
+		int add(){
+			int a=45,c=55;
+			int h=a+c;
+			cout<<h;
+		}
+};
+int main()
+{
+	Z j=Z();
+	j.add();
+	return 0;
+}
+__________________________________________________________________
+#include<iostream>
+using namespace std;
+class Z{
+	public:
+		float add(){
+			int a=45,c=55;
+			int h=a+c;
+			cout<<h;
+		}
+};
+int main()
+{
+	Z j=Z();
+	j.add();
+	return 0;
+}
+__________________________________________________________________________
+#include<iostream>
+using namespace std;
+class Z{
+	public:
+		double add(){
+			int a=45,c=55;
+			int h=a+c;
+			cout<<h;
+		}
+};
+int main()
+{
+	Z j=Z();
+	j.add();
+	return 0;
+}
+____________________________________________________________________________
+#include<iostream>
+using namespace std;
+class Z{
+	public:
+		bool add(){
+			int a=45,c=55;
+			int h=a+c;
+			cout<<h;
+		}
+};
+int main()
+{
+	Z j=Z();
+	j.add();
+	return 0;
+}
+___________________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		int main(int d,int g){
+			int o=d+g;
+			cout<<o;
+			return o;
+		}
+};
+int main()
+{
+	A z=A();
+	z.main(56,1234);
+	return 0;
+}
+____________________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		float main(int d,int g){
+			int o=d+g;
+			cout<<o;
+			return o;
+		}
+};
+int main()
+{
+	A z=A();
+	z.main(56,1234);
+	return 0;
+}
+_________________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		double main(int d,int g){
+			int o=d+g;
+			cout<<o;
+			return o;
+		}
+};
+int main()
+{
+	A z=A();
+	z.main(56,1234);
+	return 0;
+}
+__________________________________________________________________
