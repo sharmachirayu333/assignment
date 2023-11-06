@@ -1,0 +1,379 @@
+#include<iostream>
+using namespace std;
+class Q{
+	public:
+		void hello()
+		{
+			cout<<"hello"<<endl;
+		}
+};
+class R:public Q{
+	public:
+		void hiii()
+		{
+			cout<<"hiii"<<endl;
+		}
+};
+class T:public Q{
+	public:
+		void bye()
+		{
+			cout<<"bye"<<endl;
+		}
+};
+int main()
+{
+	R s;
+	s.hello();
+	s.hiii();
+	T l;
+	l.bye();
+	return 0;
+}
+_________________________________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		float a=78;
+		float b=69;
+		void add()
+		{
+			int c=a+b;
+			cout<<c<<endl;
+		}
+};
+class B:public A{
+	public:
+		void subt()
+		{
+			int d=a-b;
+			cout<<d<<endl;
+		}
+};
+class C:public A{
+	public:
+		void mult()
+		{
+			int e=a*b;
+			cout<<e<<endl;
+		}
+};
+class D:public A{
+	public:
+		void div()
+		{
+			float f=a/b;
+			cout<<f;
+		}
+};
+int main()
+{
+	B h;
+	h.add();
+	h.subt();
+	C i;
+	i.mult();
+	D j;
+	j.div();
+	return 0;
+}
+______________________________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		void hello()
+		{
+			cout<<"Hello"<<endl;
+		}
+};
+class B:public A{
+	public:
+		void hi()
+		{
+			cout<<"hii"<<endl;
+		}
+};
+class C{
+	public:
+		void bye()
+		{
+			cout<<"Bye"<<endl;
+		}
+};
+class D:public B,public C{
+	public:
+		void how()
+		{
+			cout<<"How are you";
+		}
+};
+int main()
+{
+	D s;
+	s.hello();
+	s.hi();
+	s.bye();
+	s.how();
+	return 0;
+}
+_____________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"a";
+	cin>>a;
+	if(a==1)
+	{
+		int e=5;
+		int f=4;
+		int g=7;
+		g=e*f;
+		f=g*g;
+		e=f*g-f;
+		cout<<e<<endl<<f<<endl<<g<<endl;
+	}
+	if(a==2)
+	{
+		int i=10;
+		int j=12;
+		int k=11;
+		k=j+i;
+		i=k*j;
+		j=i-k;
+		cout<<i<<endl<<j<<endl<<k;
+	}
+	return 0;
+}
+______________________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"a";
+	cin>>a;
+	if(a%2==0)
+	{
+		cout<<"even";
+	}
+	else{
+		cout<<"odd";
+	}
+	return 0;
+}
+___________________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int q;
+	cout<<"q";
+	cin>>q;
+	if(q>=16)
+	{
+		cout<<"valid";
+	}
+	else{
+		cout<<"not valid";
+	}
+	return 0;
+}
+____________________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=13,b,c=0;
+	int temp=a;
+	while(a>0)
+	{
+		b=a%10;
+		c=c+b*b*b;
+		a=a/10;
+	}
+	if(c==temp)
+	{
+		cout<<"Armstrong";
+	}
+	else{
+		cout<<"Non Armstrong";
+	}
+	return 0;
+}
+__________________________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=13231,b,c=0;
+	int temp=a;
+	while(a>0)
+	{
+		b=a%10;
+		c=c*10+b;
+		a=a/10;
+	}
+	if(c==temp)
+	{
+		cout<<"Pall";
+	}
+	else{
+		cout<<"Non Pall";
+	}
+	return 0;
+}
+__________________________________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"a";
+	cin>>a;
+	int b=1;
+	int c=1;
+	while(a>=c)
+	{
+		b=b*c;
+		c++;
+	}
+	cout<<b;
+	return 0;
+}
+_________________________________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"a";
+	cin>>a;
+	int b,c=1,d=3;
+	while(a>0)
+	{
+		b=c+d;
+		c=d;
+		d=b;
+		cout<<b;
+     	a--;
+	}
+
+	return 0;
+}
+_________________________________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=8,b=1,c=0;
+	while(a>b)
+	{
+		if(a%b==0)
+		{
+			c=b+c;
+		}
+		b++;
+	}
+	if(c==a)
+	{
+		cout<<"perfect no";
+	}
+	else{
+		cout<<"not perfect no";
+	}
+	return 0;
+}
+________________________________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=7,b,c=0,d;
+	b=a*a;
+	while(b>0)
+	{
+		d=b%10;
+		c=c+d;
+		b=b/10;
+	}
+	if(c==a)
+	{
+		cout<<"neon no";
+	}
+	else{
+		cout<<"non neon no";
+	}
+	return 0;
+}
+_________________________________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"enter year";
+	cin>>a;
+	if(a%4==0)
+	{
+		cout<<"leap year";
+	}
+	else{
+		cout<<"non leap year";
+	}
+	return 0;
+}
+____________________________________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		int a=90;
+		int b=45;
+		void add()
+		{
+			int c=a+b;
+			cout<<c<<endl;
+		}
+};
+class B:public A{
+	public:
+		int sub()
+		{
+			int d=a-b;
+			cout<<d<<endl;
+			return d;
+		}
+};
+class C:public A{
+	public:
+		int mult(int y,int t)
+		{
+			int e=y*t;
+			cout<<e<<endl;
+			return e;
+		}
+};
+class D:public A{
+	public:
+		void div(int u,int v)
+		{
+			int f=u/v;
+			cout<<f;
+		}
+};
+int main()
+{
+	B m;
+	m.add();
+	m.sub();
+	C n;
+	n.mult(90,45);
+	D o;
+	o.div(90,45);
+	return 0;
+}
+______________________________________________________________________________________________
