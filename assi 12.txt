@@ -1,0 +1,142 @@
+#include<iostream>
+using namespace std;
+class C{
+	public:
+		void s(){
+			int a=90,b=56;
+			cout<<a+b<<endl;
+		}
+};
+class D:public C{
+	public:
+		void add(){
+			int c=89;
+			int d=55;
+			int s=a*b;
+			cout<<s;
+		}
+	};
+int main()
+{
+	D l;
+	l.s();
+	l.add();
+	return 0;
+}
+____________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		void Q(){
+			int a=4,b=5;
+			cout<<a+b<<endl;
+		}
+		void W(int a,int b){
+			int c=a*b;
+			cout<<c<<endl;
+		}
+};
+class B:public A{
+	public:
+		int E(int a){
+			int s=a*a;
+			cout<<s<<endl;
+			return s;
+		}
+		int R(){
+			int c=3;
+			int d=c*c*c;
+			cout<<d;
+			return d;
+		}
+};
+int main()
+{
+	B m;
+	m.Q();
+	m.W(36,88);
+	m.E(3);
+	m.R();
+	return 0;
+}
+_______________________________________________________________
+#include<iostream>
+using namespace std;
+class Q{
+	public:
+		int e=99;
+		int f=52;
+};
+class W:public Q{
+	public:
+		int u=88;
+		int s=32;
+		void sum(){
+			int t=e+f+u+s;
+			cout<<t<<endl;
+		}
+		void add(){
+			int y=e+f*u+s;
+			cout<<y<<endl;
+		}
+		void num(){
+			int i=e*f*u*s;
+			cout<<i;
+		}
+};
+int main()
+{
+	W x;
+	x.sum();
+	x.add();
+	x.num();
+	return 0;
+}
+____________________________________________________________________
+#include<iostream>
+using namespace std;
+class S{
+	public:
+		int a=90,b=34;
+		S(){
+			cout<<"Hello A"<<endl;
+		}
+		void asd(){
+			int q=a*a*b;
+			cout<<q<<endl;
+		}
+		void zxc(){
+			int p=a-b;
+			cout<<p<<endl;
+		}
+};
+class Y:public S{
+	public:
+		int c=33,d=23;
+		Y(){
+			cout<<"hello b"<<endl;
+		}
+		void qw(){
+			int o=a+b+c+d;
+			cout<<o<<endl;
+		}
+		void er(){
+			int l=a*b*c*d;
+			cout<<l<<endl;
+		}
+		void ty(){
+			cout<<"hii";
+		}
+};
+int main()
+{
+	Y k;
+	k.asd();
+	k.zxc();
+	k.qw();
+	k.er();
+	k.ty();
+	return 0;
+}
+______________________________________________________________________________
