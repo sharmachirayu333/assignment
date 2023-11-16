@@ -1,0 +1,126 @@
+#include<iostream>
+using namespace std;
+class F{
+	public:
+		void main(){
+			cout<<"hello"<<endl;
+		}
+};
+class G:public F{
+	public:
+		void x(){
+			cout<<"hii"<<endl;
+		}
+};
+class H:public G{
+	public:
+		void f(){
+			cout<<"byee";
+		}
+};
+int main()
+{
+	H j;
+	j.main();
+	j.x();
+	j.f();
+	return 0;
+}
+___________________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		int a=90;
+};
+class B:public A{
+	public:
+		int b=345;
+};
+class C:public B{
+	public:
+		int c=45;
+		void add(){
+			int d=a+b+c;
+			cout<<d;
+		}
+	};
+int main()
+{
+	C g;
+	g.add();
+	return 0;
+}
+_____________________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		int a=87;
+};
+class B:public A{
+	public:
+		int b=12;
+};
+class C:public B{
+	public:
+		int c=72;
+};
+class D:public C{
+	public:
+		int d=19;
+};
+class E:public D{
+	public:
+		int e=52;
+		void ans(){
+			int f=a+b+c+d+e;
+			cout<<f;
+		}
+};
+int main()
+{
+	E g;
+	g.ans();
+	return 0;
+}
+_______________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		int a=54;
+		A(){
+			cout<<"hello"<<endl;
+		}
+};
+class B:public A{
+	public:
+		int b=33;
+		B(){
+			cout<<"Hello"<<endl;
+		}
+};
+class C:public B{
+	public:
+		int c=234;
+		C(){
+			cout<<"hELLO"<<endl;
+		}
+		void add(){
+			int d=a+b+c;
+			cout<<d<<endl;
+		}
+};
+class D:public C{
+	public:
+		D(){
+			cout<<"hello world"<<endl;
+		}
+};
+int main()
+{
+	D n;
+	n.add();
+	return 0;	
+}
