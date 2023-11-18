@@ -1,0 +1,230 @@
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		int a=78;
+};
+class B:public A{
+	public:
+		int b=45;
+		void f(){
+			int v=a+b;
+			cout<<v;
+		}
+};
+int main()
+{
+	B h;
+	h.f();
+	return 0;
+}
+___________________________________________________________________
+#include<iostream>
+using namespace std;
+class R{
+	public:
+		int a;
+		int b;
+		R(){
+			int c=5;
+			int d=12;
+			a=c;
+			b=d;
+		}
+};
+class T:public R{
+	public:
+		int c;
+		int d;
+		T(){
+			int e=74;
+			int f=165;
+			c=e;
+			d=f;
+		}
+		void value(){
+			cout<<a<<endl<<b<<endl<<c<<endl<<d;
+		}
+};
+int main()
+{
+	T y;
+	y.value();
+	return 0;
+	}
+_______________________________________________________________________________
+#include<iostream>
+using namespace std;
+class Y{
+	public:
+	int c=23;
+	int d=56;
+};
+class B:public Y{
+	public:
+	int a=12;
+	int b=89;
+};
+class C:public B{
+	public:
+		int e=98;
+		int f=234;
+};
+class D:public C{
+	public:
+		int g=345;
+		int h=32;
+		void s(){
+			int i=a+b+c+d+e+f;
+			cout<<i;
+		}
+};
+int main()
+{
+	D e;
+	e.s();
+	return 0;
+}
+______________________________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		void f(){
+			cout<<"hello"<<endl;
+		}
+};
+class B{
+	public:
+		void g(){
+			cout<<"hii"<<endl;
+		}
+};
+class C{
+	public:
+		void h(){
+			cout<<"byee"<<endl;
+		}
+};
+class D:public A,public B,public C{
+	public:
+		void j(){
+			cout<<"hello";
+		}
+};
+int main()
+{
+	D k;
+	k.f();
+	k.g();
+	k.h();
+	k.j();
+	return 0;
+}
+____________________________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+			int s=45;
+			int p=90;
+			int f;
+			int g;
+		void a(){
+			cout<<s*p+36<<endl;
+		}
+		void d(int f,int g){
+			cout<<f+g*90<<endl;
+		}
+};
+class B{
+	public:
+		int u=33;
+		int y=74;
+		int o;
+		int q;
+		int ans(){
+			int w=u+y;
+			cout<<w<<endl;
+			return w;
+		}
+		int value(int o,int q){
+			int e=o-q;
+			cout<<e<<endl;
+			return e;
+		}
+};
+class C:public A,public B{
+	public:
+		void fun(){
+			int r=80*s*p;
+			cout<<r<<endl;
+		}
+		int meth(int x,int y){
+			int z=u*(x-y);
+			cout<<z;
+			return z;
+		}
+};
+int main()
+{
+	C m;
+	m.a();
+	m.d(23,67);
+	m.ans();
+	m.value(12,85);
+	m.fun();
+	m.meth(54,857);
+	return 0;
+}
+_________________________________________________________________________________
+#include<iostream>
+using namespace std;
+class F{
+	public:
+		void w(){
+			int a=12,b=23;
+			cout<<a+b<<endl;
+		}
+		void r(int e,int g){
+			int c=e-g;
+			cout<<c<<endl;
+		}
+};
+class G{
+	public:
+		int u(){
+			int q=555,w=890;
+			float d=q/w;
+			cout<<d<<endl;
+			return d;
+		}
+		int i(int a,int b){
+			int f=a*b+a;
+			cout<<f<<endl;
+			return f;
+			}
+};
+class H:public F,public G{
+	public:
+		void o(){
+			int a=33,b=66;
+			cout<<a+b/a<<endl;	
+		}
+		void p(int a,int b){
+			int j=a+b*b;
+			cout<<j;
+		}
+};
+int main()
+{
+	H k;
+	k.w();
+	k.r(45,89);
+	k.u();
+	k.i(12,567);
+	k.o();
+	k.p(34,987);
+	return 0;
+}
+__________________________________________________________________________________
