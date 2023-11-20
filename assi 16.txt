@@ -1,0 +1,341 @@
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		A(int a)
+		{
+			cout<<a<<endl;
+		}
+		void sum(int a,int b)
+		{
+			cout<<a+b<<endl;
+		}
+};
+int main()
+{
+	int x;
+	cout<<"Enter x";
+	cin>>x;
+	int y;
+	cout<<"Enter y";
+	cin>>y;
+	A z=A(x);
+	z.sum(x,y);
+	int q;
+	cin>>q;
+	int r;
+	cin>>r;
+	A m=A(q);
+	m.sum(q,r);
+	int w;
+	cin>>w;
+	int e;
+	cin>>e;
+	A n=A(w);
+	n.sum(w,e);
+	int t;
+	cin>>t;
+	int u;
+	cin>>u;
+	A o=A(u);
+	o.sum(t,u);
+	return 0;
+}
+____________________________________________________________________
+#include<iostream>
+using namespace std;
+class D{
+	public:
+		D(int m)
+		{
+			cout<<m<<endl;
+		}
+		static int add(int m,int n)
+		{
+			int q=m+n;
+			cout<<q<<endl;
+			return q;
+		}
+		static void sum(int m)
+		{
+			int v=m*m;
+			cout<<v<<endl;
+		}
+		static int squ(int m,int s)
+		{
+			int p=m+s*m;
+			cout<<p<<endl;
+			return p;
+		}
+		static void num(float m,float e)
+		{
+			float w=(m-e)/12;
+			cout<<w;
+		}
+};
+int main()
+{
+	int x;
+	cin>>x;
+	int j;
+	cin>>j;
+	D i=D(x);
+	i.add(x,j);
+	D f=D(x);
+	f.sum(x);
+	int g;
+	cin>>g;
+	D c=D(x);
+	c.squ(x,g);
+	int r;
+	cin>>r;
+	D t=D(x);
+	t.num(x,r);
+	return 0;
+}
+________________________________________________________________________
+#include<iostream>
+using namespace std;
+class D{
+	public:
+		D(float m)
+		{
+			cout<<m<<endl;
+		}
+		static float add(float m,float n)
+		{
+			int q=m+n;
+			cout<<q<<endl;
+			return q;
+		}
+		static int sum(float m)
+		{
+			float v=m*m;
+			cout<<v<<endl;
+			return v;
+		}
+		static int squ(int m,int s)
+		{
+			int p=m+s*m;
+			cout<<p<<endl;
+			return p;
+		}
+		 static char num(char l)
+		{
+			cout<<l;
+			return l;
+		}
+};
+int main()
+{
+	int x;
+	cin>>x;
+	int j;
+	cin>>j;
+	D i=D(x);
+	i.add(x,j);
+	D f=D(x);
+	f.sum(x);
+	int g;
+	cin>>g;
+	D c=D(x);
+	c.squ(x,g);
+	char r;
+	cin>>r;
+	D t=D(x);
+	t.num(r);
+	return 0;
+}
+____________________________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		int a=90;
+		void add()
+		{
+			cout<<a<<endl;
+		}
+};
+class B:public A{
+	public:
+		int b=90;
+		void sum()
+		{
+			int c=a+b;
+			cout<<c;
+		}
+};
+int main()
+{
+	B e;
+	e.add();
+		e.sum();
+	return 0;
+}
+______________________________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		int a=90;
+};
+class B:public A{
+	public:
+		int b=90;
+	
+};
+class C:public B{
+	public:
+		int c=78;
+		
+};
+class D:public C{
+	public:
+		int d=745;
+		void add()
+		{
+			int e=a+b+c+d;
+			cout<<e;
+		}
+};
+int main()
+{
+	D f;
+	f.add();
+	return 0;
+}
+________________________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		int a=90;
+};
+class B{
+	public:
+		int b=90;
+
+};
+class C{
+	public:
+		int f=23;
+};
+class D:public A,public B,public C{
+	public:
+		void cal()
+		{
+			int e=a+b+f;
+			cout<<e;
+		}
+};
+int main()
+{
+	D x;
+	x.cal();
+	return 0;
+}
+________________________________________________________________
+#include<iostream>
+using namespace std;
+class A{
+	public:
+		int a=34;
+		int b=74;
+		int c=123;
+		int d=587;
+		void m()
+		{
+			cout<<a<<endl;
+		}
+};
+class B:public A{
+	public:
+		void n()
+		{
+			int e=a+b;
+			cout<<e<<endl;
+		}
+};
+class C:public A{
+	public:
+		void o()
+		{
+			int f=a+b+c;
+			cout<<f<<endl;
+		}
+};
+class D:public A{
+	public:
+		void p()
+		{
+			int g=a+b+c+d;
+			cout<<g;
+		}
+};
+int main()
+{
+	B s;
+	s.m();
+	s.n();
+	C h;
+	h.o();
+	D i;
+	i.p();
+	return 0;
+	
+}
+______________________________________________________________________________
+#include<iostream>
+using namespace std;
+class D{
+	public:
+		D(float m)
+		{
+			cout<<m<<endl;
+		}
+		static string add(string name)
+		{
+			cout<<name<<endl;
+			return name;
+		}
+		static float sum(float m)
+		{
+			float v=m*m;
+			cout<<v<<endl;
+			return v;
+		}
+		static double squ(int m,int s)
+		{
+			float p=(m-s)/200;
+			cout<<p<<endl;
+			return p;
+		}
+		 static long num(int m,int k)
+		{
+			int s1=m*m+k*k+k*m;
+			cout<<s1;
+			return s1;
+		}
+};
+int main()
+{
+	int x;
+	cin>>x;
+	string n;
+	cin>>n;
+	D w=D(x);
+	w.add(n);
+	D f=D(x);
+	f.sum(x);
+	int g;
+	cin>>g;
+	D c=D(x);
+	c.squ(x,g);
+	int r;
+	cin>>r;
+	D t=D(x);
+	t.num(x,r);
+	return 0;
+}
+_________________________________________________________________________________________________
