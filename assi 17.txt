@@ -1,0 +1,113 @@
+#include<iostream>
+using namespace std;
+class Person{
+	public:
+		Person()
+		{
+			string name;
+			cout<<"Enter your name";
+			cin>>name;
+			int age;
+			cout<<"Enter age";
+			cin>>age;
+		}
+};
+int main()
+{
+	Person s;
+	return 0;
+}
+__________________________________________________________________
+#include<iostream>
+using namespace std;
+class Person{
+	public:
+		Person(string name,int age)
+		{
+			cout<<name<<endl<<age;
+		}
+};
+int main()
+{
+	Person a=Person("Chirayu",25);
+	return 0;
+}
+____________________________________________________________________
+#include<iostream>
+using namespace std;
+class Vehicle{
+	public:
+		void v()
+		{
+			cout<<"Vehicles"<<endl;
+		}
+};
+class Bike:public Vehicle{
+	public:
+		void b()
+		{
+			cout<<"Bike"<<endl;
+			cout<<"Colour = Black"<<endl;
+			cout<<"Speed = 120km/h"<<endl;
+		}
+};
+class Car:public Vehicle{
+	public:
+		void c()
+		{
+			cout<<"Car"<<endl;
+			cout<<"Colour = White"<<endl;
+			cout<<"Speed =240km/h"<<endl;
+		}
+};
+int main()
+{
+	Bike a;
+	a.v();
+	a.b();
+	Car d;
+	d.c();
+	return 0;
+}
+____________________________________________________________________________
+#include<iostream>
+using namespace std;
+class Animal{
+	public:
+		Animal()
+		{
+			cout<<"Animal"<<endl;
+		}
+};
+class Bird:public Animal{
+		public:
+		void b()
+		{
+			cout<<"Birds"<<endl;
+		}
+};
+class Mammal:public Animal{
+	public:
+		void m()
+		{
+			cout<<"Mammals"<<endl;
+		}
+};
+class Bat:public Bird,public Mammal{
+	public:
+		void bat()
+		{
+			cout<<"Bat";
+		}
+};
+int main()
+{
+	Bird s;
+	s.b();
+	Mammal t;
+	t.m();
+	Bat u;
+	u.bat();
+	return 0;
+}
+____________________________________________________________________________________
