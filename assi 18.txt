@@ -1,0 +1,154 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a[]={12,67,89,45,34,23};
+	cout<<a[4]<<endl;
+	int i;
+	for(i=0;i<6;i++)
+	{
+		cout<<a[i]<<" ";
+	}
+	for(i=6;i>=0;i--)
+	{
+		cout<<a[i]<<" ";
+	}
+	return 0;
+}
+___________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	float q[]={2.3,7.8,1.2,8.9,5.6};
+	cout<<q[4]<<endl;
+	int i;
+	for(i=0;i<5;i++)
+	{
+		cout<<q[i]<<" "<<endl;
+	}
+	for(i=5;i>=0;i--)
+	{
+		cout<<q[i]<<" ";
+	}
+	return 0;
+}
+________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	char w[]={'a','b','c','d','e','f'};
+	cout<<w[5]<<endl;
+	int a;
+	for(a=0;a<6;a++)
+	{
+		cout<<w[a]<<" ";
+	}
+	for(a=6;a>=0;a--)
+	{
+		cout<<w[a]<<" ";
+	}
+	return 0;
+}
+_________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	string name[]={"ram","vishnu","durga","kalyani","laxmi"};
+	cout<<name[3]<<endl;
+	int r;
+	for(r=0;r<5;r++)
+	{
+		cout<<name[r]<<" ";
+	}
+	for(r=4;r>=0;r--)
+	{
+		cout<<name[r]<<" ";
+	}
+	return 0;
+}
+_____________________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    for(a=1;a<=100;a++)
+    {
+    	int b;
+    	for(b=2;a>b;b++)
+    	{
+    		if(a%b==0)
+    		{
+    			break;
+			}
+			if(b==a-1)
+			{
+				cout<<a<<" ";
+			}
+		}
+	}
+	return 0;
+}
+____________________________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=153,b,c=0;
+	int temp=a;
+	while(a>0)
+	{
+		b=a%10;
+		c=c+b*b*b;
+		a=a/10;
+	}
+	if(c==temp)
+	{
+		cout<<"armstrong";
+	}
+	else{
+		cout<<"non armstrong";
+	}
+	return 0;
+}
+_____________________________________________________________________________________
+#include<iostream>
+using namespace std;
+int main()
+{
+	int s;
+	cout<<"s";
+	cin>>s;
+	if(s==1)
+	{
+		int a=90,b=34,c;
+		c=a+b;
+		b=a*c;
+		a=b*b;
+		cout<<a<<endl<<b<<endl<<c;
+	}
+	else if(s==2)
+	{
+		int e=367,f=654,g;
+		g=e-f;
+		f=g/e;
+		e=f*g;
+		cout<<g<<endl<<f<<endl<<e;
+	}
+	else if(s==3)
+	{
+	  int t=94,q=256,w;
+	  w=q%t;
+	  q=w*t;
+	  t=q-w;
+	  cout<<w<<endl<<q<<endl<<t;
+	}
+	else{
+		cout<<"Enter correct no";
+	}
+	return 0;
+}
+______________________________________________________________________________________
